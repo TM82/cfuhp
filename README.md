@@ -10,7 +10,7 @@ make docker/start
 make docker/exec
 ```
 
-# Vueのプロジェクト作成
+# Vueのプロジェクト作成(最初に行ったので実行不要)
 ```
 vue create cfuhp
 ```
