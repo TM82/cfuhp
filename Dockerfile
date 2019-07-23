@@ -6,6 +6,7 @@ RUN apk update && \
     npm install -g npm \
     npm install -g @vue/cli \
     npm install -g firebase-tools \
+    npm install bootstrap-vue \
     && rm -rf /var/lib/apt/lists/*
 
 CMD ["/bin/ash"]
