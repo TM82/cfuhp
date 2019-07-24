@@ -21,7 +21,7 @@ cd cfuhp
 npm run serve
 ```
 
-#firebaseとの接続
+# firebaseとの接続
 ```
 npm run build → distフォルダの作成
 firebase init hosting
