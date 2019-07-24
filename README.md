@@ -17,5 +17,14 @@ vue create cfuhp
 
 # 実行
 ```
+cd cfuhp
 npm run serve
+```
+
+#firebaseとの接続
+```
+npm run build → distフォルダの作成
+firebase init hosting
+-> public directoryとしてdistを選択
+firebase deploy -> deployされる
 ```
