@@ -13,7 +13,7 @@ make docker/exec
 # Vueのプロジェクト作成
 ```
 vue create cfuhp
- -> defaultを選択
+ -> Manuallyを選択
  -> npmを選択
 ```
 
