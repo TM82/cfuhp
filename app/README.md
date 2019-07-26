@@ -1,4 +1,4 @@
-# cfuhp
+# app
 
 ## Project setup
 ```
