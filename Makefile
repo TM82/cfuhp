@@ -1,17 +1,8 @@
-docker/build:
-	docker-compose build
-
-docker/start:
+up:
 	docker-compose up -d
 
-docker/logs:
-	docker-compose logs
+log:
+	docker-compose logs -f vue
 
-docker/stop:
-	docker-compose stop
-
-docker/clean:
-	docker-compose rm
-
-docker/exec:
-	docker-compose exec vue /bin/ash
+down:
+	docker-compose down

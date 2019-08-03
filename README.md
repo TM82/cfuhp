@@ -1,30 +1,18 @@
-# cfuhp
-Code for UnivのHP用リポジトリ
+# インストール
+nodejs,npmはインストールしてください。<br>
+https://nodejs.org/ja/download/
+```
+npm install -g @vue/cli
+npm install -g firebase-tools
+cd app
+npm install
+```
+で必要なパッケージが全て入ります。
 
-# 環境構築
+#初期設定
 ```
-git clone
-cd cfuhp
-make docker/build
-make docker/start
-make docker/exec
-```
-
-# Vueのプロジェクト作成(最初に行ったので実行不要)
-```
-vue create cfuhp
-```
-
-# 実行
-```
-cd cfuhp
-npm run serve
-```
-
-# firebaseとの接続
-```
-npm run build → distフォルダの作成
-firebase init hosting
--> public directoryとしてdistを選択
-firebase deploy -> deployされる
+vue create app
+-> manuallyを選択
+-> 既存の2つ以外にRouterとVueXを選択
+-> その他よしなに選択して./settingに保存
 ```

@@ -1,10 +1,20 @@
 version: '3'
+
 services:
-    vue:
-        build: .
-        volumes:
-            - ./app:/app
-        ports:
-            - '8080:8080'
-        stdin_open: true
-        tty: true
+  vue:
+    build:
+      context: ./
+      dockerfile: ./.docker/vue/Dockerfile
+    container_name: vue-cfuhp
+    ports:
+      - 8800:8080
+    privileged: true
+    volumes:
+      - ./app:/app
+      - node_modules:/app/node_modules
+    tty: true
+    stdin_open: true
+    command: ash -c "npm install && npm run serve"
+volumes:
+    node_modules:
+        driver: local
