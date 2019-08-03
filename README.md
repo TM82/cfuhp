@@ -4,13 +4,11 @@ Code for UnivのHP用リポジトリ
 # 環境構築
 ```
 git clone
-cd cfuhp
-make docker/build
-make docker/start
-make docker/exec
+make up
+make logs
 ```
 
-# Vueのプロジェクト作成
+# Vueのプロジェクト作成(不要)
 ```
 vue create cfuhp
  -> Manuallyを選択
@@ -19,16 +17,7 @@ vue create cfuhp
  -> その他よしなに選択して./settingに保存
 ```
 
-# 実行
-```
-npm install -g @vue/cli
-npm install -g firebase-tools
-cd app
-npm install
-```
-で必要なパッケージが全て入ります。
-
-#初期設定
+#初期設定(不要)
 ```
 npm run build
 -> distフォルダの作成
