@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="post">
     <div class="content">
       <img src='@/assets/logo.png' width=200px>
     </div>
@@ -7,8 +7,7 @@
       <h2>自分の課題を、自分ごとにしよう。</h2>
     </div>
     <div class="content">
-      Code for Univ.(University)は大学に対してみなさんが抱いている想いを、
-      想いのまま終わらせずITやネットワーキングを通じて実際の課題解決にコミットするためのシビックテックコミュニティです。
+      Post page
     </div>
   </div>
 </template>
@@ -18,7 +17,7 @@
 
 export default {
   name: 'home',
-  title: 'Code for Univ.',
+  title: 'Code for Univ. - Post',
   components: {
     // HelloWorld
   }
@@ -26,7 +25,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.home
+.post
   width: 90%
   margin: auto
 

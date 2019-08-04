@@ -21,6 +21,16 @@ export default new Router({
       path: '/event',
       name: 'Event',
       component: () => import('@/views/Event.vue')
+    },
+    {
+      path: '/mission',
+      name: 'Mission',
+      component: () => import('@/views/Mission.vue')
+    },
+    {
+      path: '/post',
+      name: 'Post',
+      component: () => import('@/views/Post.vue')
     }
   ]
 })
