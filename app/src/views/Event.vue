@@ -1,6 +1,6 @@
 <template>
   <div class="event">
-    <HelloWorld msg="This is HomePage of Code for University !!"/>
+    <HelloWorld msg="This is HomePage of for University !!"/>
     <button class="btn btn-primary">test</button>
   </div>
 </template>
