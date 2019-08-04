@@ -1,7 +1,6 @@
 <template>
   <div class="event">
-    <HelloWorld msg="This is HomePage of for University !!"/>
-    <button class="btn btn-primary">test</button>
+    <HelloWorld msg="This is Event Page of Code for University !!"/>
   </div>
 </template>
 
@@ -11,6 +10,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'event',
+  title: 'Code for Univ. - Event',
   components: {
     HelloWorld
   }
