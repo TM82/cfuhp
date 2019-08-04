@@ -31,6 +31,11 @@ export default new Router({
       path: '/post',
       name: 'Post',
       component: () => import('@/views/Post.vue')
+    },
+    {
+      path: '/gallery',
+      name: 'Gallery',
+      component: () => import('@/views/Gallery.vue')
     }
   ]
 })

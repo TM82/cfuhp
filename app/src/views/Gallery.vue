@@ -1,5 +1,5 @@
 <template>
-  <div class="mission">
+  <div class="gallery">
     <div class="content">
       <img src='@/assets/logo.png' width=200px>
     </div>
@@ -7,7 +7,7 @@
       <h2>自分の課題を、自分ごとにしよう。</h2>
     </div>
     <div class="content">
-      Mission page
+      Gallery page
     </div>
   </div>
 </template>
@@ -16,8 +16,8 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'mission',
-  title: 'Code for Univ. - Mission',
+  name: 'gallery',
+  title: 'Code for Univ. - Gallery',
   components: {
     // HelloWorld
   }
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.mission
+.gallery
   width: 90%
   margin: auto
 

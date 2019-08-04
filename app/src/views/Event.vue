@@ -1,18 +1,36 @@
 <template>
-  <div class="event">
-    <HelloWorld msg="This is Event Page of Code for University !!"/>
+  <div class="home">
+    <div class="content">
+      <img src='@/assets/logo.png' width=200px>
+    </div>
+    <div class="content">
+      <h2>自分の課題を、自分ごとにしよう。</h2>
+    </div>
+    <div class="content">
+      Event page
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'event',
   title: 'Code for Univ. - Event',
   components: {
-    HelloWorld
+    // HelloWorld
   }
 }
 </script>
+
+<style lang="sass" scoped>
+.home
+  width: 90%
+  margin: auto
+
+.content
+  margin: auto
+  padding: 30px 0px
+
+</style>
