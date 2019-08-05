@@ -7,16 +7,20 @@
       <h2>自分の課題を、自分ごとにしよう。</h2>
     </div>
     <div class="content">
-      This is an about page
+      About page
     </div>
-    
   </div>
 </template>
 
 <script>
+// import HelloWorld from '@/components/HelloWorld.vue'
+
 export default {
   name: 'about',
-  title: 'Code for Univ. - About'
+  title: 'Code for Univ. - About',
+  components: {
+    // HelloWorld
+  }
 }
 </script>
 

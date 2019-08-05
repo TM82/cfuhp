@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="event">
     <div class="content">
       <img src='@/assets/logo.png' width=200px>
     </div>
@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.home
+.event
   width: 90%
   margin: auto
 
